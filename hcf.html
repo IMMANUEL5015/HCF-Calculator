@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HCF Calculator</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="hcf.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="d-flex flex-column justify-content-center">
+             <h1>The HCF Calculator</h1>
+            <p>This Web Application Calculates the Greatest Common Divisor of any two positive integers</p>
+            <p>
+                <strong>Description: </strong>
+                This app assumes that it's input consists of two different positive integers and proceeds to compute the
+                greatest common divisor of these two values. 
+            </p>
+        </header>
+       
+        <div id="hcfCalc" class="mb-4">
+            <p>Calculate HCF</p>
+            <div class="form-group">
+                <label for="result">Your Result</label>
+                <input type="number" class="form-control" id="result">
+            </div>
+            <div class="form-group">
+                <label for="firstNum">Enter Larger Number</label>
+                <input type="number" class="form-control" id="firstNum">
+            </div>
+            <div class="form-group">
+                <label for="secondNum">Enter Smaller Number</label>
+                <input type="number" class="form-control" id="secondNum">
+            </div>
+            <div id="button">
+                <button class="mb-3 mt-1">Submit</button>
+                <button>Refresh</button> 
+            </div> 
+        </div><!--hcf calculator-->
+    </body>
+    <script src="hcf.js"></script>
+</html>
